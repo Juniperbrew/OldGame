@@ -1,0 +1,7 @@
+public Sign extends Entity implements Talkable{
+	String message;
+
+	public String interact(){
+		return message;
+	}
+}

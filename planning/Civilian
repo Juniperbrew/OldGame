@@ -1,0 +1,17 @@
+public Civilian extends Entity implements Acting, Talkable{
+	Vector3 destination;
+	String message;
+	Rectangle moveArea;
+
+	public act(){
+		if(destination != null){
+			//If we have a destination walk towards it
+		}else{
+			//If we dont have a destination find a new one inside moving bounds
+			destination = Random.newDestination(moveArea);
+		}
+	}
+	public String interact(){
+		return message;
+	}
+}

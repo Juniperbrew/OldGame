@@ -1,0 +1,5 @@
+public Enemy extends Entity implements Acting{
+	public act(){
+		//Move towards player
+	}
+}

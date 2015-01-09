@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="Collission" color="#ffff00"/>
+ <objecttype name="Teleport" color="#0000ff"/>
+ <objecttype name="Spawn" color="#00ff00"/>
+ <objecttype name="Message" color="#40e0d0"/>
+ <objecttype name="Exit" color="#ff0000"/>
+</objecttypes>

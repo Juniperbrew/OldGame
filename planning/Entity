@@ -1,0 +1,9 @@
+public Entity{
+
+X
+Y
+Map
+Rotation
+Sprite
+
+}
